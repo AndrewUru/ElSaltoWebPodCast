@@ -3,6 +3,27 @@ import EpisodeLayout from "../layouts/EpisodeLayout.astro";
 import astropodConfig from "../../.astropod/astropod.config.json";
 ---
 
-<EpisodeLayout title="About" description={astropodConfig.description} cover={astropodConfig.cover}>
-  {astropodConfig.description}
+<EpisodeLayout title="Acerca de" description={astropodConfig.description} cover={astropodConfig.cover}>
+  <section>
+    <h1>Sobre {astropodConfig.name}</h1>
+    <p>{astropodConfig.description}</p>
+    
+    <h2>Nuestra Misión</h2>
+    <p>En {astropodConfig.name}, nuestra misión es empoderar a los creadores de contenido ofreciendo soluciones personalizadas para podcasts que les ayuden a destacar en el creciente panorama digital. Entendemos los desafíos únicos que enfrentan los creadores, y estamos aquí para proporcionar las herramientas y la orientación necesarias para llevar sus podcasts al siguiente nivel.</p>
+
+    <h2>¿Qué Ofrecemos?</h2>
+    <ul>
+      <li><strong>Configuración y Lanzamiento de Podcasts:</strong> Te ayudamos a comenzar, desde la selección del equipo adecuado hasta la configuración de tu plataforma de alojamiento de podcast.</li>
+      <li><strong>Estrategia de Contenidos:</strong> Te asesoramos en la creación de una estrategia de contenidos adaptada a tu audiencia, asegurándonos de que tus episodios resuenen y creen una comunidad fiel.</li>
+      <li><strong>Branding y Diseño:</strong> Desde la portada hasta la identidad sonora, hacemos que tu podcast se vea y suene profesional.</li>
+      <li><strong>Promoción y Crecimiento:</strong> Te proporcionamos estrategias para promocionar tu podcast, incluyendo optimización SEO, integración en redes sociales y tácticas de engagement con tu audiencia.</li>
+      <li><strong>Monetización:</strong> Te orientamos sobre cómo monetizar tu podcast a través de patrocinios, contenido premium y plataformas de apoyo como Patreon.</li>
+    </ul>
+
+    <h2>¿Por Qué Elegirnos?</h2>
+    <p>Nuestra experiencia en tecnología y creación de contenido nos permite ofrecer una solución integral para creadores que buscan hacer crecer su marca personal y llegar a una audiencia más amplia. Ya sea que estés comenzando o buscando optimizar tu podcast actual, tenemos la experiencia para guiarte en cada paso del camino.</p>
+
+    <h2>Contáctanos</h2>
+    <p>¿Listo para llevar tu podcast al siguiente nivel? Contáctanos en <a href="mailto:{astropodConfig.email}">{astropodConfig.email}</a> o visita nuestro sitio web en <a href="{astropodConfig.link}">{astropodConfig.link}</a> para obtener más información.</p>
+  </section>
 </EpisodeLayout>

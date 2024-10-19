@@ -1,23 +1,20 @@
 {
-  "copyright": "",
-  "theme": "light",
-  "fundingText": "",
-  "author": "Author's name",
-  "name": "Podcast Name",
+  "copyright": "Andrés Tobío",
+  "theme": "dark",
+  "fundingText": "Apóyanos para seguir ofreciendo servicios personalizados para creadores de contenido.",
+  "author": "Andrés Tobío",
+  "name": "ElSaltoWeb PodCast",
   "banner": "/banner.webp",
   "pageSize": 15,
-  "fundingUrl": "",
-  "owner": "",
+  "fundingUrl": "https://www.patreon.com/contentcreatorhub",
+  "owner": "Andrés Tobío",
   "favicon": "/favicon.svg",
   "explicit": false,
   "cover": "/cover.jpg",
   "language": "en",
-  "link": "https://your-website-url.netlify.app",
-  "email": "your.email@gmail.com",
-  "description": "A short description of your podcast. We suggest creating a podcast description between 600-900 characters or 120-170 words in length.",
-  "category": [
-    "Technology",
-    "Business"
-  ],
-  "feedSize": ""
+  "link": "https://elsaltoweb.es",
+  "email": "contacto@elsaltoweb.es",
+  "description": "Ayudamos a creadores de contenido a lanzar y optimizar su propio podcast con soluciones a medida y herramientas especializadas.",
+  "category": ["Technology", "Business", "Marketing"],
+  "feedSize": 15
 }
