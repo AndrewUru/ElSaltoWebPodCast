@@ -9,6 +9,9 @@ export default function dcapconfig() {
     backend: {
       name: "git-gateway",
       branch: "main",
+      identity_url:
+        "https://delightful-zuccutto-7454d3.netlify.app/.netlify/identity", // URL de Netlify Identity
+      auth_url: "https://<your-site>.netlify.app/.netlify/functions/auth", // URL de autenticación de Netlify
     },
     collections: [
       {
