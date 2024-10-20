@@ -4,29 +4,31 @@ import astropodConfig from "../../.astropod/astropod.config.json";
 ---
 
 <EpisodeLayout title="Acerca de" description={astropodConfig.description} cover={astropodConfig.cover}> 
-  <section>
-    <h1>Sobre {astropodConfig.name}</h1>
-    <p>{astropodConfig.description}</p>
-    
-    <h2>La Herramienta: ElSaltoWebPodCast</h2>
-    <p>{astropodConfig.name} utiliza la tecnología de <strong>Astropod</strong>, una solución innovadora para la gestión y distribución de podcasts. Astropod está diseñada para simplificar la creación, publicación y monitoreo de podcasts, brindando a los creadores de contenido una plataforma eficiente y fácil de usar para gestionar todos los aspectos de su podcast.</p>
+<section class="py-12 bg-gray-900">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-6 text-center text-violet-400">Gestión y Distribución de Episodios</h2>
+    <p class="text-lg text-gray-300 mb-6 text-center">
+      En ElSaltoWeb PodCast, no solo te proporcionamos una plataforma completa para crear contenido, sino que también te ofrecemos un <strong>panel de control</strong> intuitivo para gestionar todos tus episodios.
+    </p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <!-- Sección Panel de Control -->
+      <div class="bg-gray-800 p-6 rounded-md shadow-lg">
+        <h3 class="text-xl font-semibold text-violet-400 mb-2">Panel de Control Personalizado</h3>
+        <p class="text-gray-400">Nuestro panel de control te permite organizar y gestionar todos los episodios de tu podcast desde un solo lugar. <br>Ya sea programar, editar, o analizar el rendimiento, tendrás todo lo necesario para manejar tu contenido de manera eficiente.</p>
+      </div>
 
-    <h2>Nuestra Función</h2>
-    <p>En {astropodConfig.name}, nuestra misión no es solo crear contenido, sino también implementar esta poderosa herramienta para que los creadores de contenido puedan probar y sacar el máximo provecho de la tecnología Astropod. Nosotros proporcionamos la integración y personalización de esta tecnología para ayudar a los usuarios a conocer sus capacidades y explorar cómo puede mejorar sus procesos de creación de contenido.</p>
+      <!-- Sección Conexión con Plataformas -->
+      <div class="bg-gray-800 p-6 rounded-md shadow-lg">
+        <h3 class="text-xl font-semibold text-violet-400 mb-2">Automatización y Publicación en Grandes Plataformas</h3>
+        <p class="text-gray-400">Conectamos tu podcast automáticamente con plataformas como <strong>Spotify</strong>, <strong>iTunes</strong>, y otras grandes plataformas de streaming.<br> Nuestra tecnología automatiza la publicación de cada episodio, simplificando todo el proceso.</p>
+      </div>
+    </div>
 
-    <h2>¿Qué es Astropod?</h2>
-    <ul>
-      <li><strong>Gestión Integral:</strong> Astropod facilita la organización de episodios, su publicación en múltiples plataformas, y el monitoreo del rendimiento desde una única interfaz.</li>
-      <li><strong>Automatización:</strong> Automatiza muchas de las tareas repetitivas, como la programación de publicaciones y la creación de feeds RSS personalizados para distintos servicios de distribución de podcasts.</li>
-      <li><strong>Optimización:</strong> Ofrece herramientas de optimización SEO y analíticas que permiten a los creadores de contenido obtener una mayor visibilidad y crecimiento.</li>
-      <li><strong>Interfaz Amigable:</strong> Con una interfaz sencilla e intuitiva, los usuarios pueden configurar sus podcasts en pocos pasos sin complicaciones técnicas.</li>
-    </ul>
+    <p class="text-lg text-gray-300 mt-6 text-center">
+      Con ElSaltoWeb PodCast, puedes enfocarte en crear contenido mientras nosotros nos encargamos de la distribución, conectando tu podcast con miles de oyentes alrededor del mundo.
+    </p>
+  </div>
+</section>
 
-    <h2>¿Por Qué Implementamos Astropod?</h2>
-    <p>Decidimos implementar Astropod porque creemos en el poder de la tecnología para transformar el modo en que los creadores gestionan y distribuyen su contenido. Al ofrecer una plataforma todo-en-uno que simplifica los aspectos técnicos, Astropod permite a los creadores enfocarse en lo que realmente importa: producir contenido de alta calidad y conectarse con su audiencia.</p>
-
-    <h2>Contáctanos</h2>
-    <p>Si estás interesado en conocer más sobre cómo Astropod puede ayudarte a gestionar tu podcast, o si deseas probar la herramienta con nosotros, no dudes en contactarnos a través de <a href="mailto:{astropodConfig.email}">{astropodConfig.email}</a> o visita nuestro sitio web en <a href="{astropodConfig.link}">{astropodConfig.link}</a>.</p>
-  </section>
 </EpisodeLayout>
 
