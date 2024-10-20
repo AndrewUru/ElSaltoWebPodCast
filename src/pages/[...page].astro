@@ -20,8 +20,64 @@ const { page } = Astro.props;
 ---
 
 <BaseLayout>
+  <!-- Encabezado principal del sitio -->
   <HeaderCard title={astropodConfig.name} subtitle={astropodConfig.author} />
 
+  <!-- Nueva sección de servicios -->
+  <section id="services" class="my-12">
+    <h2 class="text-3xl font-bold text-center mb-8">Nuestros Servicios</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+      <!-- Servicio 1 -->
+      <div class="shadow-md p-6 rounded-lg">
+        <h3 class="text-xl font-semibold mb-4">Plataforma DIY</h3>
+        <p class="mb-4">
+          Con nuestro plan DIY, tendrás control total sobre tu plataforma de podcasts por solo 26€/mes.
+        </p>
+        <ul class="list-disc list-inside">
+          <li>Acceso completo a la plataforma</li>
+          <li>Guías de configuración paso a paso</li>
+          <li>Soporte técnico básico</li>
+        </ul>
+        <button class="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+          Comenzar Ahora
+        </button>
+      </div>
+      
+      <!-- Servicio 2 -->
+      <div class="shadow-md p-6 rounded-lg">
+        <h3 class="text-xl font-semibold mb-4">Gestión Completa</h3>
+        <p class="mb-4">
+          Nosotros gestionamos todo por ti por 56€/mes. Solo preocúpate por grabar.
+        </p>
+        <ul class="list-disc list-inside">
+          <li>Gestión total de tu plataforma</li>
+          <li>Actualizaciones automáticas</li>
+          <li>Soporte avanzado</li>
+        </ul>
+        <button class="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+          Comenzar Ahora
+        </button>
+      </div>
+
+      <!-- Servicio 3 -->
+      <div class="shadow-md p-6 rounded-lg">
+        <h3 class="text-xl font-semibold mb-4">Asesoramiento Personalizado</h3>
+        <p class="mb-4">
+          Consulta personalizada para optimizar y hacer crecer tu plataforma de podcast.
+        </p>
+        <ul class="list-disc list-inside">
+          <li>Estrategia de crecimiento</li>
+          <li>Optimización de contenido</li>
+          <li>Análisis de métricas</li>
+        </ul>
+        <button class="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+          Solicitar Consulta
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de episodios -->
   <div class="card min-w-full bg-base-100 shadow-md p-3 pb-3 mt-12">
     {
       page.data.map((episode, index) => (
@@ -38,7 +94,10 @@ const { page } = Astro.props;
       ))
     }
   </div>
+
+  <!-- Paginación -->
   {(page.url.next || page.url.prev) && <Pagination page={page} />}
+
 </BaseLayout>
 
 <AudioPlayer />
