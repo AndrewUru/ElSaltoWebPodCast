@@ -1,6 +1,6 @@
 {
   "copyright": "Andrés Tobío",
-  "theme": "dark",
+  "theme": "cupcake",
   "fundingText": "Apóyanos para seguir ofreciendo servicios personalizados para creadores de contenido.",
   "author": "Andrés Tobío",
   "name": "ElSaltoWeb PodCast",
@@ -15,6 +15,10 @@
   "link": "https://elsaltoweb.es",
   "email": "atobio459@gmail.com",
   "description": "Ayudamos a creadores de contenido a lanzar y optimizar su propio podcast con soluciones a medida y herramientas especializadas.",
-  "category": ["Technology", "Business", "Marketing"],
+  "category": [
+    "Technology",
+    "Business",
+    "Marketing"
+  ],
   "feedSize": 15
 }
