@@ -4,81 +4,71 @@ import astropodConfig from "../../.astropod/astropod.config.json";
 ---
 
 <EpisodeLayout title="Merchandising" description={astropodConfig.description} cover={astropodConfig.cover}>
-  <section class="py-12 bg-gray-900">
-    <div class="container mx-auto px-6">
-      <h1 class="text-4xl font-bold mb-6 text-center text-violet-400">
-        Productos de {astropodConfig.name}
-      </h1>
-      <p class="text-lg text-gray-300 mb-12 text-center">
-        Consigue el tuyo y ayúdanos seguir creando Comunidad.
-      </p>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-        <!-- Tarjeta del Producto 1: Taza -->
-        <div class="bg-gray-800 shadow-lg rounded-md overflow-hidden h-full flex flex-col justify-between">
-          <img class="w-full h-40 object-cover" src="https://images.unsplash.com/photo-1488381397757-59d6261610f4?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Taza con logo" />
-          <div class="p-4">
-            <h3 class="text-lg font-semibold mb-2 text-violet-400">Taza personalizada</h3>
-            <p class="text-gray-400 mb-2">Taza con el logo de {astropodConfig.name}. Ideal para tus mañanas.</p>
-            <p class="text-gray-400 font-bold mb-4">Precio: $10.99</p>
-            <a
-              href="enlace_a_taza"
-              class="flex-1 text-center bg-violet-600 text-white py-2 rounded hover:bg-violet-700"
-            >
-              Comprar Taza
-            </a>
-          </div>
-        </div>
+<section class="py-12 bg-gray-900">
+  <div class="container mx-auto px-6">
+    <h1 class="text-4xl font-bold mb-6 text-center text-violet-400">
+      Productos de {astropodConfig.name}
+    </h1>
+    <p class="text-lg text-gray-300 mb-12 text-center">
+      Consigue el tuyo y ayúdanos seguir creando Comunidad.
+    </p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
 
-        <!-- Tarjeta del Producto 2: Camiseta -->
-        <div class="bg-gray-800 shadow-lg rounded-md overflow-hidden h-full flex flex-col justify-between">
-          <img class="w-full h-40 object-cover" src="https://images.unsplash.com/photo-1499713907394-43c9d094ac2e?q=80&w=2006&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Camiseta personalizada" />
-          <div class="p-4">
-            <h3 class="text-lg font-semibold mb-2 text-violet-400">Camiseta personalizada</h3>
-            <p class="text-gray-400 mb-2">Camiseta con un diseño exclusivo de {astropodConfig.name}.</p>
-            <p class="text-gray-400 font-bold mb-4">Precio: $19.99</p>
-            <a
-              href="enlace_a_camiseta"
-              class="flex-1 text-center bg-violet-600 text-white py-2 rounded hover:bg-violet-700"
-            >
-              Comprar Camiseta
-            </a>
-          </div>
+      <!-- Tarjeta del Producto 1: Taza -->
+      <div class="bg-gray-800 shadow-lg rounded-md overflow-hidden h-full flex flex-col justify-between">
+        <img class="w-full h-40 object-cover" src="https://images.unsplash.com/photo-1488381397757-59d6261610f4?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Taza con logo" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold mb-2 text-violet-400">Taza personalizada</h3>
+          <p class="text-gray-400 mb-2">Taza con el logo de {astropodConfig.name}. Ideal para tus mañanas.</p>
+          <p class="text-gray-400 font-bold mb-4">Precio: $10.99</p>
+          <a href="https://wa.me/34648226078" target="_blank" class="flex-1 text-center bg-violet-600 text-white p-2 rounded hover:bg-violet-700">
+            Comprar Taza
+          </a>
         </div>
+      </div>
 
-        <!-- Tarjeta del Producto 3: Bolso -->
-        <div class="bg-gray-800 shadow-lg rounded-md overflow-hidden h-full flex flex-col justify-between">
-          <img class="w-full h-40 object-cover" src="https://images.unsplash.com/photo-1721111260492-afe3d9e5bd76?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Bolso personalizado" />
-          <div class="p-4">
-            <h3 class="text-lg font-semibold mb-2 text-violet-400">Bolso personalizado</h3>
-            <p class="text-gray-400 mb-2">Bolso con el logo de {astropodConfig.name}. Perfecto para llevar a todas partes.</p>
-            <p class="text-gray-400 font-bold mb-4">Precio: $24.99</p>
-            <a
-              href="enlace_a_bolso"
-              class="flex-1 text-center bg-violet-600 text-white py-2 rounded hover:bg-violet-700"
-            >
-              Comprar Bolso
-            </a>
-          </div>
+      <!-- Tarjeta del Producto 2: Camiseta -->
+      <div class="bg-gray-800 shadow-lg rounded-md overflow-hidden h-full flex flex-col justify-between">
+        <img class="w-full h-40 object-cover" src="https://images.unsplash.com/photo-1499713907394-43c9d094ac2e?q=80&w=2006&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Camiseta personalizada" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold mb-2 text-violet-400">Camiseta personalizada</h3>
+          <p class="text-gray-400 mb-2">Camiseta con un diseño exclusivo de {astropodConfig.name}.</p>
+          <p class="text-gray-400 font-bold mb-4">Precio: $19.99</p>
+          <a href="https://wa.me/34648226078" target="_blank" class="flex-1 text-center bg-violet-600 text-white p-2 rounded hover:bg-violet-700">
+            Comprar Camiseta
+          </a>
         </div>
+      </div>
 
-        <!-- Tarjeta del Producto 4: AirPods -->
-        <div class="bg-gray-800 shadow-lg rounded-md overflow-hidden h-full flex flex-col justify-between">
-          <img class="w-full h-40 object-cover" src="https://images.unsplash.com/photo-1594385209132-f88b85619040?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="AirPods personalizados" />
-          <div class="p-4">
-            <h3 class="text-lg font-semibold mb-2 text-violet-400">AirPods</h3>
-            <p class="text-gray-400 mb-2">Para no perderte ningún episodio de {astropodConfig.name}.</p>
-            <p class="text-gray-400 font-bold mb-4">Precio: $149.99</p>
-            <a
-              href="enlace_a_airpods"
-              class="flex-1 text-center bg-violet-600 text-white py-2 rounded hover:bg-violet-700"
-            >
-              Comprar AirPods
-            </a>
-          </div>
+      <!-- Tarjeta del Producto 3: Bolso -->
+      <div class="bg-gray-800 shadow-lg rounded-md overflow-hidden h-full flex flex-col justify-between">
+        <img class="w-full h-40 object-cover" src="https://images.unsplash.com/photo-1721111260492-afe3d9e5bd76?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Bolso personalizado" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold mb-2 text-violet-400">Bolso personalizado</h3>
+          <p class="text-gray-400 mb-2">Bolso con el logo de {astropodConfig.name}. Perfecto para llevar a todas partes.</p>
+          <p class="text-gray-400 font-bold mb-4">Precio: $24.99</p>
+          <a href="https://wa.me/34648226078" target="_blank" class="flex-1 text-center bg-violet-600 text-white p-2 rounded hover:bg-violet-700">
+            Comprar Bolso
+          </a>
+        </div>
+      </div>
+
+      <!-- Tarjeta del Producto 4: AirPods -->
+      <div class="bg-gray-800 shadow-lg rounded-md overflow-hidden h-full flex flex-col justify-between">
+        <img class="w-full h-40 object-cover" src="https://images.unsplash.com/photo-1594385209132-f88b85619040?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="AirPods personalizados" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold mb-2 text-violet-400">AirPods</h3>
+          <p class="text-gray-400 mb-2">Para no perderte ningún episodio de {astropodConfig.name}.</p>
+          <p class="text-gray-400 font-bold mb-4">Precio: $149.99</p>
+          <a href="https://wa.me/34648226078" target="_blank" class="flex-1 text-center bg-violet-600 text-white p-2 rounded hover:bg-violet-700">
+            Comprar AirPods
+          </a>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
 <section class="py-12 bg-gray-900">
   <div class="container mx-auto px-6">
@@ -107,6 +97,33 @@ import astropodConfig from "../../.astropod/astropod.config.json";
     </div>
   </div>
 </section>
+
+<script>
+  function openPopup(popupId) {
+      const popup = document.getElementById(popupId);
+      if (popup) {
+          popup.style.display = "block";
+      }
+  }
+
+  function closePopup(popupId) {
+      const popup = document.getElementById(popupId);
+      if (popup) {
+          popup.style.display = "none";
+      }
+  }
+
+  // Opcional: Cierra el popup al hacer clic fuera de él
+  window.onclick = function(event) {
+     const popups = document.querySelectorAll('.popup');
+     popups.forEach(popup => {
+          if (event.target === popup) {
+             (popup as HTMLElement).style.display = 'none';
+         }
+     });
+   };
+</script>
+
 
 
 </EpisodeLayout>

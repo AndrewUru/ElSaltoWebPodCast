@@ -16,7 +16,7 @@ export default function dcapconfig() {
     collections: [
       {
         name: "episodes",
-        label: "Episodes",
+        label: "Episodios",
         label_singular: "Episode",
         folder: "src/content/episode",
         sortable_fields: ["title", "pubDate", "episode", "season"],
