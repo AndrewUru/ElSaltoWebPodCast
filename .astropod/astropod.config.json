@@ -6,7 +6,7 @@
   "name": "ElSaltoWeb PodCast",
   "banner": "/banner2.webp",
   "pageSize": 15,
-  "fundingUrl": "https://www.patreon.com/contentcreatorhub",
+  "fundingUrl": "https://paypal.me/ElSaltoWeb?country.x=ES&locale.x=es_ES",
   "owner": "Andrés Tobío",
   "favicon": "/favicon.svg",
   "explicit": false,
@@ -15,10 +15,6 @@
   "link": "https://elsaltoweb.es",
   "email": "atobio459@gmail.com",
   "description": "Ayudamos a creadores de contenido a lanzar y optimizar su propio podcast con soluciones a medida y herramientas especializadas.",
-  "category": [
-    "Technology",
-    "Business",
-    "Marketing"
-  ],
+  "category": ["Technology", "Business", "Marketing"],
   "feedSize": 15
 }
